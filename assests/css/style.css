@@ -202,4 +202,21 @@ nav>ul>li>a:hover{
 
 .education-box3{
     align-self: self-start;
-}git
+}
+.skills{
+    width: 100%;
+    padding: 100px 0px;
+    height: 80vh;
+    background-image: url(../img/IMG-20200718-WA0011.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.skills h2{
+    color: black;
+    font-size: 75px;
+    text-align: center;
+    padding: 30px;
+}
+
