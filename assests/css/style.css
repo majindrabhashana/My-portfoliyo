@@ -106,3 +106,20 @@ nav>ul>li>a:hover{
 
 }
 
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    height: 80vh;
+    background-image: url(../img/IMG-20200718-WA0011.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+.about-text {
+    color: black;
+    font-size: 50px;
+    width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+}
+
