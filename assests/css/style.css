@@ -55,5 +55,11 @@ nav>ul>li>a:hover{
     background-size: cover;
     background-position: center;
 }
-
+.main-content>h2{
+    color: black;
+    font-family: Inter;
+    font-style: italic;
+    font-size:60px ;
+    position: absolute;
+}
 
