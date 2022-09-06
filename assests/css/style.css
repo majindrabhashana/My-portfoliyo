@@ -100,4 +100,9 @@ nav>ul>li>a:hover{
     margin: 22px 150px;
 
 }
+.hero aside i:hover{
+    transform: scale(1.3);
+    transition: .3s;
+
+}
 
