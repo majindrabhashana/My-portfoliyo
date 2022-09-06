@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background:#1E3C78 ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 75px;
+    z-index: 2;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 30px;
+    font-size:20px ;
+
+}
+
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+
+}
+nav>ul>li>a:hover{
+    color: #ff253a;
+    transition: .4s;
+}
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+
+
+}
+nav>ul>li>a:hover{
+    color: #ff253a;
+    transition: .4s;
+}
+
+.hero{
+    position: relative;
+    margin-top: 73px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/IMG-20200718-WA0011.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+

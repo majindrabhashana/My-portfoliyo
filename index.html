@@ -7,7 +7,7 @@
     <link rel="icon" href="">
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="assignments/CSS/style.css">
+    <link rel="stylesheet" href="assests/css/style.css">
     <link rel="stylesheet" href="assests/fonts/css/all.css">
     <title>My portfolio</title>
 
@@ -15,95 +15,104 @@
 </head>
 <body>
 <!--header element-->
-<!--<header>-->
-<!--    <section>-->
-<!--        <nav>-->
-<!--            <ul>-->
-<!--                <li><a href="#">Home</a></li>-->
-<!--                <li><a href="#">About</a></li>-->
-<!--                <li><a href="#">Education</a></li>-->
-<!--                <li><a href="#">Skills</a></li>-->
-<!--                <li><a href="#">Service</a></li>-->
-<!--                <li><a href="#">Project</a></li>-->
-<!--                <li><a href="#">Contact</a></li>-->
-<!--            </ul>-->
-<!--        </nav>-->
-<!--    </section>-->
-
-<!--</header>-->
-<div class="hero">
-
-    <div>
-        <img src="assests/img/photo_2022-08-31_11-49-56.jpg">
-
-    </div>
+<header>
     <section>
-        <div>
-            <h2>
-                WELCOME !
-            </h2>
-            <h2>
-                I’M MAJINDRA BHASHANA
-                FULL STACK DEVELOPER
-            </h2>
-
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </section>
-    <aside>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-square-whatsapp"></i>
-        <h4>
-            FOLLOW ME
-        </h4>
-    </aside>
-</div>
+
+
+</header>
 
 <!--main element start-->
 <main>
+    <section>
+        <div class="hero">
 
+            <div class="main-image">
+                <img src="assests/img/photo_2022-08-31_11-49-56.jpg">
+
+            </div>
+            <section>
+                <div class="main-content ">
+                    <h2>
+                        WELCOME !
+                    </h2>
+                    <h2>
+                        I’M MAJINDRA BHASHANA <br>
+                        FULL STACK DEVELOPER
+                    </h2>
+
+                </div>
+            </section>
+            <aside>
+                <i class="fa-brands fa-facebook" style="color: #0c39bf"></i>
+                <i class="fa-brands fa-twitter" style="color: #0c39bf"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"style="color: black"></i>
+                <i class="fa-brands fa-square-whatsapp" style="color:darkgreen"></i>
+                <h4>
+                    FOLLOW ME
+                </h4>
+            </aside>
+        </div>
+    </section>
     <!--    about me section-->
-<section>
-    <section>
-        <div>
-            <h2>
-                ABOUT ME
-            </h2>
-        </div>
-
-    </section>
-    <section>
-        <div>
-            <p>
-                My name is Majindra Bhashana Amarakoon.I’m  software engineering student in
-                IJSE [Institute of Software Engineering] in Panadura. I’ve mostly worked professionally with java,javascript.I also have knowledge of web development,UI/UX designing,database management and frameworks.
-            </p>
-            <p>
-                Name-A.A.Majindra Bhashana <br>
-                Age-23<br>
-                Address-Kegalle <br>
-                Contact-0714589935 <br>
-
-            </p>
-        </div>
-        <button type="button" >
-            Download CV
-        </button>
-    </section>
-
-</section>
-    <section>
-        <div>
-<!--            education section start-->
-            <div>
+    <section class="about">
+        <section>
+            <div class="about-text">
                 <h2>
-
-                    EDUCATION
+                    ABOUT ME
                 </h2>
             </div>
-            <div>
+
+        </section>
+        <section class="about-detail">
+            <div class="detail">
+                <p>
+                    My name is Majindra Bhashana <br>
+                    Amarakoon.I’m software <br>engineering student in<br>
+                    IJSE [Institute of Software <br>Engineering] in Panadura. I’ve <br>mostly worked professionally with
+                    <br>java,javascript.I also have <br>knowledge of web <br>development,UI/UX <br> designing,database
+                    management<br> and frameworks.
+                </p>
+                <p>
+                    Name-A.A.Majindra Bhashana <br>
+                    <br>
+                    Age-23<br>
+                    <br>
+                    Address-Kegalle <br>
+                    <br>
+                    Contact-0714589935 <br>
+
+                </p>
+            </div>
+            <button type="button">
+                Download CV
+            </button>
+        </section>
+
+    </section>
+    <section class="education">
+
+        <!--            education section start-->
+        <div class ="education-title">
+            <h2>
+
+                EDUCATION
+            </h2>
+        </div>
+        <div class="main-box">
+            <div class=" education-box1">
                 <h5>
                     Advanced level
 
@@ -112,12 +121,12 @@
                     Kegalu Vidyalaya [2016-2018]
                 </p>
             </div>
-            <div>
+            <div class=" education-box2">
                 <p>
                     BSc(Hons)in Computer Science @ IJSE Institute Of Software Engineering
                 </p>
             </div>
-            <div>
+            <div class=" education-box3">
                 <h5>
                     Odinary Level
                 </h5>
@@ -130,202 +139,158 @@
         </div>
 
     </section>
-<!--    skill section start-->
-    <section>
-        <div>
+    <!--    skill section start-->
+    <section >
+        <div class="skills">
             <div>
-                <h2>
-                    SKILLS
-                </h2>
+                <h2>Skills</h2>
+            </div>
+            <div class="img-box">
+                <img src="assests/icons/Rectangle%2025%20(1).jpg">
+                <img src="assests/icons/img.jpg">
+                <img src="assests/icons/Rectangle%2019.jpg">
+                <img src="assests/icons/Rectangle%2020.jpg"> <br>
+                <img src="assests/icons/Rectangle%2021.jpg">
+                <img src="assests/icons/Rectangle%2022.jpg">
+                <img src="assests/icons/Rectangle%2023.jpg">
+                <img src="assests/icons/Rectangle%2024.jpg">
             </div>
         </div>
-            <div>
-                <div>
-                    <h2>
-                        SKILLS
-                    </h2>
-
-                </div>
-                <div>
-                    <h4>
-                        Java
-                    </h4>
-                    <img src="assests/icons/Rectangle%2025%20(1).jpg">
-                    <h4>
-                        1yr
-                    </h4>
-                </div>
-                <div>
-                    <h4>
-                        Java fx
-                    </h4>
-                    <img src="assests/icons/img.jpg">
-                    <h4>
-                        1yr
-                    </h4>
-
-                </div>
-                <div>
-                    <h4>
-                        Mysql
-                    </h4>
-                    <img src="assests/icons/Rectangle%2019.jpg">
-                    <h4>
-                        1yr
-                    </h4>
-
-                </div>
-                <div>
-                    <h4>
-                        Html
-                    </h4>
-                    <img src="assests/icons/Rectangle%2020.jpg">
-                    <h4>
-                        1yr
-                    </h4>
-
-                </div>
-                <div>
-                    <h4>
-                        CSS
-                    </h4>
-                    <img src="assests/icons/Rectangle%2021.jpg">
-                    <h4>
-                        1yr
-                    </h4>
-
-                </div>
-                <div>
-                    <h4>
-                        Figma
-                    </h4>
-                    <img src="assests/icons/Rectangle%2022.jpg">
-                    <h4>
-                        1yr
-                    </h4>
-
-                </div>
-                <div>
-                    <h4>
-                        JavaScript
-                    </h4>
-                    <img src="assests/icons/Rectangle%2023.jpg">
-                    <h4>
-                        1yr
-                    </h4>
-
-                </div>
-                <div>
-                    <h4>
-                        PhotoShop
-                    </h4>
-                    <img src="assests/icons/Rectangle%2024.jpg">
-                    <h4>
-                        1yr
-                    </h4>
-
-                </div>
-            </div>
 
     </section>
-<!--    service section -->
+    <!--    service section -->
     <section>
-        <div>
+        <div class="service">
             <div>
                 <h2>
                     SERVICE
                 </h2>
             </div>
-            <div>
-                <h5>
-                    Software
-                    Development
+            <div class="service-box">
 
-                </h5>
-                <img src="assests/icons/image%201.jpg">
-                <p>
-                    The development of different types of standalone software using Java, JavaFx, MySQL, SpringBoot, and Hibernate.
-                    The procedure of implementation is as seamless as feasible.
-                    putting excellent code and design into practice.
-                    knowledge of APIs and Representational State Transfer Services.
+                <div class="service2-box">
+                    <h5>
+                        Software
+                        Development
 
-                </p>
-                <p>
-                    <a class="button" href="#">
-                        Reed More
-                    </a>
+                    </h5>
+                    <img src="assests/icons/image%201.jpg">
+                    <div class="pra">
+                        <p>
+                            The development of different types of standalone software using Java, JavaFx, MySQL, SpringBoot, and
+                            Hibernate.
+                            The procedure of implementation is as seamless as feasible.
+                            putting excellent code and design into practice.
+                            knowledge of APIs and Representational State Transfer Services.
 
-                </p>
-            </div>
-            <div>
-                <h5>
-                    Mobile App Development
+                        </p>
 
-                </h5>
-                <img src="assests/icons/image%202.jpg">
-                <p>
-                    Java, JavaFx, MySQL, SpringBoot, and Hibernate are used to construct a variety of independent software applications.
-                    Implementation process is as smooth as possible
-                </p>
-                <p>
-                    <a class="button" href="#">
-                        Reed More
-                    </a>
-                </p>
-            </div>
-            <div>
-                <h5>
-                    Web Development
+                        <p>
+                            <a class="button" href="#">
+                                Reed More
+                            </a>
 
-                </h5>
-                <img src="assests/icons/Vector.jpg">
-                <p>
-                    Blogs,E-commerce websites development with JavaScript,CSS and HTML
+                        </p>
+                    </div>
+                </div>
+                <div class="service2-box">
+                    <h5>
+                        Mobile App Development
 
-                    se latest Technolgies to develop the designs.
+                    </h5>
+                    <img src="assests/icons/image%202.jpg">
+                    <div class="pra">
+                        <p>
+                            Java, JavaFx, MySQL, SpringBoot, and Hibernate are used to construct a variety of independent
+                            software applications.
+                            Implementation process is as smooth as possible
+                        </p>
+                        <br>
+                        <br>
+                        <br>
 
-                </p>
-                <p>
-                    <a class="button" href="#">
-                        Reed More
-                    </a>
-                </p>
-            </div>
-            <div>
-                <h5>
-                    UI/UX Design
+                        <p>
+                            <a class="button" href="#">
+                                Reed More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="service2-box">
+                    <h5>
+                        Web Development
 
-                </h5>
-                <img src="assests/icons/image%203.jpg">
-                <p>
-                    Create interfaces for software and other electronic devices.
+                    </h5>
+                    <img src="assests/icons/Vector.jpg">
+                    <div class="pra">
 
-                    design items that satisfy and meaningful user experiences.
 
-                    a product's usability, design, and branding.
-                </p>
-                <p>
-                    <a class="button" href="#">
-                        Reed More
-                    </a>
-                </p>
+                        <p>
+                            Blogs,E-commerce websites development with JavaScript,CSS and HTML
+
+                            se latest Technolgies to develop the designs.
+
+                        </p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <p>
+                            <a class="button" href="#">
+                                Reed More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="service2-box">
+                    <h5>
+                        UI/UX Design
+
+                    </h5>
+                    <img src="assests/icons/image%203.jpg">
+                    <div class="pra">
+                        <p>
+                            Create interfaces for software and other electronic devices.
+
+                            design items that satisfy and meaningful user experiences.
+
+                            a product's usability, design, and branding.
+                        </p>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p>
+                            <a class="button" href="#">
+                                Reed More
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
     </section>
-<!--    Tools section-->
+    <!--    Tools section-->
     <section>
-        <div>
+        <div class="tools">
             <div>
                 <h2>
                     TOOLS
                 </h2>
-                <div>
+                <div class="tools-box">
 
                     <img src="assests/img/tools/image%209.jpg">
                     <img src="assests/img/tools/image%205.jpg">
                     <img src="assests/img/tools/image%206.jpg">
-                    <img src="assests/img/tools/image%207.jpg">
+                    <img src="assests/img/tools/image%207.jpg"><br>
                     <img src="assests/img/tools/figma%202.jpg">
                     <img src="assests/img/tools/image%208.jpg">
                     <img src="assests/img/tools/image%204.jpg">
@@ -334,126 +299,162 @@
             </div>
         </div>
     </section>
-<!--    Project section-->
+    <!--    Project section-->
     <section>
-        <div>
+        <div class="projects">
+
             <div>
                 <h2>
                     PROJECTS
                 </h2>
-                <p>
-                    I've worked on several projects in the aforementioned fields for more than two years, and I've gotten positive reviews.
-                    And I'll share these work with you so you can get a sense of my abilities.
-                </p>
+                <div class="projects-detail">
+                    <p>
+                        I've worked on several projects in the aforementioned fields for more than two years, and I've
+                        gotten positive reviews.<br>
+                        And I'll share these work with you so you can get a sense of my abilities.
+                    </p>
+                </div>
 
             </div>
-            <div>
-                <h3>
-                    CAR PARKING
-                    SYSTEM
-                </h3>
-            </div>
-            <div>
-                <img src="assests/img/project/Rectangle%2035%20(1).jpg">
-                <p>
-                    <a class="button" href="#">
-                        Reed More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div>
+            <div class="projects-box">
+                <div class="projects2-box">
+                    <div>
+                        <h3>
+                            CAR PARKING
+                            SYSTEM
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="assests/img/project/Rectangle%2035%20(1).jpg">
+                        <p>
+                            <a class="button" href="#">
+                                Reed More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="projects2-box">
+                    <div>
 
-            <h3>
-                SUPER MARKET SYSTEM
-            </h3>
-            <div>
-                <img src="assests/img/project/Rectangle%2036.jpg">
-                <p>
-                    <a class="button" href="#">
-                        Reed More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div>
+                        <h3>
+                            SUPER MARKET SYSTEM
+                        </h3>
+                        <div>
+                            <img src="assests/img/project/Rectangle%2036.jpg">
+                            <p>
+                                <a class="button" href="#">
+                                    Reed More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects2-box">
+                    <div>
 
-            <h3>
-                HOTEL MANAGEMENT SYSTEM
-            </h3>
-            <div>
-                <img src="assests/img/project/Rectangle%2037.jpg">
-                <p>
-                    <a class="button" href="#">
-                        Reed More
-                    </a>
-                </p>
+                        <h3>
+                            HOTEL MANAGEMENT SYSTEM
+                        </h3>
+                        <div>
+                            <img src="assests/img/project/Rectangle%2037.jpg">
+                            <p>
+                                <a class="button" href="#">
+                                    Reed More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         </div>
 
     </section>
-<!--    contact section-->
-    <section>
-        <div>
+    <!--    contact section-->
+    <section class="contact">
+        <div class="content">
             <h2>
                 CONTACT
             </h2>
         </div>
-        <div>
-            <div>
-                <img src="assests/img/contact/Rectangle%2038.jpg">
-                <h3>
-                    A.A.Majindra Bhashana
-                </h3>
-                <img src="assests/img/contact/Rectangle%2040.jpg">
-                <h3>
-                    0714589935
-                </h3>
-                <img src="assests/img/contact/Rectangle%2041.jpg">
-                <h3>
-                    A/61,Buluruppa,hettimulla
-                </h3>
-                <img src="assests/img/contact/Rectangle%2042.jpg">
-                <h3>
-                    majindrabhashana@gmail.com
-                </h3>
+
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box01">
+                    <div class="icon">
+                        <img src="assests/img/contact/Rectangle%2038.jpg">
+                    </div>
+                    <div class="icon-text">
+                        <h3>
+                            A.A.Majindra Bhashana
+                        </h3>
+                    </div>
+
+                </div>
+
+                <div class="box01">
+                    <div class="icon">
+                        <img src="assests/img/contact/Rectangle%2040.jpg">
+                    </div>
+                    <div class="icon-text">
+                        <h3>
+                            0714589935
+                        </h3>
+                    </div>
+
+                </div>
+
+                <div class="box01">
+                    <div class="icon">
+                        <img src="assests/img/contact/Rectangle%2041.jpg">
+                    </div>
+
+                    <div class="icon-text">
+                        <h3>
+                            A/61,Buluruppa,hettimulla
+                        </h3>
+                    </div>
+
+                </div>
+
+                <div class="box01">
+                    <div class="icon">
+                        <img src="assests/img/contact/Rectangle%2042.jpg">
+                    </div>
+                    <div class="icon-text">
+                        <h3>
+                            majindrabhashana@gmail.com
+                        </h3>
+                    </div>
+
+                </div>
 
             </div>
-            <div>
+
+            <div class="contactForm">
                 <form>
-                    <label>
-                        your name
-                    </label>
-                    <input>
-                    <label>
-                        email
-                    </label>
-                    <input>
-                    <label>
-                        contact number
-                    </label>
-                    <input>
-                    <p>
-                        <a class="button" href="#">
-                            send
-                        </a>
-                    </p>
+
+                    <input id="input" placeholder="Name">
+
+                    <input id="input01" placeholder="Email">
+
+                    <input id="input02" placeholder="Contact">
 
                 </form>
+                <button type="send">Send</button>
+            </div>
 
-            </div>
-            </div>
+
+        </div>
 
     </section>
-
 
 
 </main>
 
 <footer>
     <p>
-        C o p y r i g h t            2022   A l l   R i g h t   R e s e r v e d .
+        C o p y r i g h t 2022 A l l R i g h t R e s e r v e d .
     </p>
     <p>
         WEBSITE DEVELOPED BY Majindra Bhashana
