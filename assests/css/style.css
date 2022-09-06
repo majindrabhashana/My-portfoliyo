@@ -62,4 +62,42 @@ nav>ul>li>a:hover{
     font-size:60px ;
     position: absolute;
 }
+.main-image>img{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 85px;
+    top: 60px;
+    border-radius: 50%;
+}
+.main-content h2:first-child{
+
+    top: 10%;
+    right: 20%;
+
+}
+.main-content h2:last-child{
+
+    top: 16%;
+    right: 8%;
+    margin-top: 75px;
+}
+
+.hero aside {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+
+}
+
+.hero aside i{
+    font-size: 50px;
+    margin: 22px 22px;
+    color: #095fc0;
+}
+.hero aside h4{
+    font-size: 30px;
+    margin: 22px 150px;
+
+}
 
