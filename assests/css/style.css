@@ -320,3 +320,26 @@ nav>ul>li>a:hover{
     text-align: center;
 }
 
+.service2-box img {
+    width:150px;
+    height: 100px;
+}
+.service2-box h5{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+.service2-box .button{
+    background-color:#4360C9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.pra p{
+    line-height:20px;
+    margin-bottom: 35px;
+}
