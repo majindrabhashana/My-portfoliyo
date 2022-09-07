@@ -534,5 +534,20 @@ footer{
 }
 
 
+footer p:nth-child(1){
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+footer p:nth-child(2){
+    color: black;
+    font-size: 40px;
+    width: 1200px;
+    text-align: center;
+    line-height: 26px;
+}
+
+
 
 
