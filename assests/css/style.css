@@ -489,3 +489,25 @@ nav>ul>li>a:hover{
     font-size: 16px;
     color: black;
 }
+
+.contactForm{
+    width: 40%;
+    height: 40%;
+
+}
+.contactForm label{
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+}
+#input, #input01, #input02{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid  #6694d0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #6694d0;
+}
