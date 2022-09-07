@@ -511,3 +511,13 @@ nav>ul>li>a:hover{
     resize: vertical;
     background: #6694d0;
 }
+.contactForm button{
+    background-color:#6694d0;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 20px;
+    transition: .4s;
+}
