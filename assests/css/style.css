@@ -454,3 +454,10 @@ nav>ul>li>a:hover{
     font-weight: 500;
     color: white;
 }
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
