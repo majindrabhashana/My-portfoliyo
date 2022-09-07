@@ -379,3 +379,28 @@ nav>ul>li>a:hover{
 .tools-box img:hover{
     transform: scale(2);
 }
+
+.projects {
+    width: 100%;
+    padding: 100px 0px;
+    height: 80vh;
+    background-image: url(../img/IMG-20200718-WA0011.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+
+}
+.projects h2{
+    color: black;
+    font-size: 50px;
+    width: 1000px;
+    margin:  auto;
+    text-align: center;
+}
+.projects-detail{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    padding: 50px 60px;
+    letter-spacing: 3px;
+}
