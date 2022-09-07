@@ -404,3 +404,35 @@ nav>ul>li>a:hover{
     padding: 50px 60px;
     letter-spacing: 3px;
 }
+.projects-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.projects2-box{
+    height: 300px;
+    width: 400px;
+    padding: 20px 35px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.projects2-box img{
+    width:300px;
+    height: 200px;
+}
+.projects2-box  .button{
+    background-color:#4360C9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
