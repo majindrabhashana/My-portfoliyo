@@ -2,75 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Animation-case03</title>
     <meta content="width=device-width initial-scale=1" name="viewport">
-    <title>CSS Slider Animation</title>
-
+    <link href="/assignment/CSS/normalize.css" rel="stylesheet">
+    <link href="/assets/fonts/css/all.min.css" rel="stylesheet">
     <style>
-        body{
-            padding: 0;
-            margin: 0;
-            background-color: #858585;
-        }
-
-        .slide-frame{
-            width: 1200px;
-            height: 800px;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
+        main {
+            width: 900px;
+            height: 480px;
+            box-shadow: 1px 3px 5px 1px #736060;
             position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
             margin: auto;
             overflow: hidden;
         }
 
-        @keyframes animation {
-            0% {left: 0px}
-            10% {left: 0px}
-            20% {left: 1200px}
-            30% {left: 1200px}
-            40% {left: 2400px}
-            50% {left: 2400px}
-            60% {left: 1200px}
-            70% {left: 1200px}
-            80% {left: 0px}
-            90% {left: 0px}
-            100% {left: 0px}
+        main > section {
+            height: 100%;
+            width: 400%;
+            display: flex;
+            animation-name: slider-animation;
+            animation-duration: 10s;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
         }
 
-        .slide-images{
-            width: 3600px;
-            height: 800px;
-            margin: 0 0 0 -2400px;
-            position: relative;
-            animation-name: animation;
-            animation-duration: 20s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-            animation-play-state: running;
+        main > section > div {
+            height: 100%;
+            width: 100%;
         }
 
-        .img-view{
-            width: 1200px;
-            height: 800px;
-            position: relative;
-            float: left;
+        main > section > div:nth-child(1) {
+            background: url("assests/image/download (2).jpg");
+            background-size: cover;
+            background-position: center;
         }
+
+        main > section > div:nth-child(2) {
+            background: url("assests/image/download (1).jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        main > section > div:nth-child(3) {
+            background: url("assests/image/download.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        main > section > div:nth-child(4) {
+            background: url("assests/image/download 4.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        @keyframes slider-animation {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-25%);
+            }
+            50% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(-75%);
+            }
+
+        }
+
+
     </style>
 </head>
 <body>
-<div class="slide-frame">
-    <div class="slide-images">
-        <div class="img-view">
-            <img src="assests/image/download.png">
-        </div>
-        <div class="img-view">
-            <img src="assests/image/download%20(1).png">
-        </div>
-        <div class="img-view">
-            <img src="assests/image/download%20(2).png">
-        </div>
-    </div>
-</div>
+
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+
 </body>
 </html>
