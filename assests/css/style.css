@@ -879,7 +879,9 @@ footer p:nth-child(2){
         bottom: 26%;
         right: 14%;
     }
-
+    footer p:nth-child(2) {
+        width: 700px;
+    }
 }
 
 
