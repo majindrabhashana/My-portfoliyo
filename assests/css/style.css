@@ -578,11 +578,26 @@ footer p:nth-child(2){
     }
     .about section:last-child button {
 
-        text-decoration: none;
         border: 4px solid transparent;
         padding: 13px 30px;
         border-radius: 30px;
     }
+    .education-title {
+        font-size: 45px;
+        margin: -10px auto;
+
+    }
+    .main-box {
+        width: 1252px;
+        height: 521px;
+
+    }
+    .education-box3 {
+        height: 83px;
+        width: 400px;
+        margin: 49px;
+    }
+
 
 
 }
