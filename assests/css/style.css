@@ -935,6 +935,20 @@ footer p:nth-child(2){
         font-size: 33px;
         margin: -42px auto;
     }
+    .contact .content h2 {
+        font-size: 40px;
+    }
+    .container .contactInfo .box01 {
+
+
+        padding: 21px -1px;
+
+    }
+    .container .contactInfo .box01 .icon img {
+        width: 56px;
+        height: 53px;
+        border-radius: 34%;
+    }
 
     footer p:nth-child(2) {
         width: 700px;
