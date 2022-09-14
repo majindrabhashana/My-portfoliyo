@@ -879,6 +879,46 @@ footer p:nth-child(2){
         bottom: 26%;
         right: 14%;
     }
+
+
+    .about-text {
+        width: 700px;
+        font-size: 33px;
+        margin: -43px auto;
+    }
+
+
+    .education-title {
+        width: 700px;
+        font-size: 33px;
+        margin: -66px auto;
+    }
+
+
+
+    .myskills-text h2 {
+
+        width: 700px;
+        font-size: 33px;
+        margin: -31px auto;
+        padding-bottom: 92px;
+
+    }
+    .service h2 {
+        width: 700px;
+        font-size: 33px;
+        margin: -46px auto;
+    }
+    .tools h2 {
+        width: 700px;
+    }
+    .projects h2 {
+
+        width: 700px;
+        font-size: 33px;
+        margin: -42px auto;
+    }
+
     footer p:nth-child(2) {
         width: 700px;
     }
