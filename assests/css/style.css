@@ -738,6 +738,16 @@ footer p:nth-child(2){
         width: 800px;
         margin: -35px auto;
     }
+    footer p:nth-child(1) {
+        font-size: 27px;
+        margin-bottom: 17px;
+    }
+
+    footer p:nth-child(2) {
+        width: 800px;
+
+    }
+
 
 
 
