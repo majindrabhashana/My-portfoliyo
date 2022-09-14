@@ -708,7 +708,36 @@ footer p:nth-child(2){
         margin: 59px;
 
     }
+    .myskills-text h2 {
+        font-size: 40px;
+        width: 833px;
 
+
+    }
+    .skill section:nth-child(2) {
+
+        width: 584px;
+
+
+
+    }
+    .service h2 {
+
+        font-size: 40px;
+        width: 1000px;
+
+
+    }
+    .tools h2 {
+        font-size: 41px;
+        margin: -36px auto;
+    }
+    .projects h2 {
+
+        font-size: 40px;
+        width: 800px;
+        margin: -35px auto;
+    }
 
 
 
