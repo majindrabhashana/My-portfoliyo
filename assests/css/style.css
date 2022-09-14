@@ -617,6 +617,24 @@ footer p:nth-child(2){
         top: 47px;
 
     }
+    .service h2 {
+
+        font-size: 45px;
+        margin: -10px auto;
+
+    }
+    .service2-box h5 {
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+    .service2-box img {
+        width: 133px;
+        height: 88px;
+    }
+    .pra p {
+        line-height: 19px;
+        margin-bottom: 14px;
+    }
 
 
 }
