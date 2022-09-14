@@ -787,6 +787,12 @@ footer p:nth-child(2){
         font-size: 41px;
         margin: -36px auto;
     }
+    .tools-box img {
+        width: 8%;
+        height: 12%;
+        margin: 47px 34px;
+        transition: transform .4s;
+    }
     .projects h2 {
 
         font-size: 40px;
@@ -796,6 +802,32 @@ footer p:nth-child(2){
     footer p:nth-child(1) {
         font-size: 27px;
         margin-bottom: 17px;
+    }
+    .projects-detail {
+        font-size: 22px;
+        padding: 40px 41px;
+    }
+    .projects-box {
+        height: 242px;
+    }
+    .projects2-box {
+        height: 264px;
+        width: 279px;
+        padding: 16px 10px;
+        border-radius: 20px;
+        margin: 27px;
+    }
+    .projects2-box img {
+        width: 201px;
+        height: 163px;
+    }
+
+    .container .contactInfo {
+        width: 58%;
+    }
+    .container {
+        width: 105%;
+        margin-top: 27px;
     }
 
     footer p:nth-child(2) {
