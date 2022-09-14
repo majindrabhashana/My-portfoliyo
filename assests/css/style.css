@@ -893,7 +893,15 @@ footer p:nth-child(2){
         font-size: 33px;
         margin: -66px auto;
     }
-
+    .education-box1, .education-box2, .education-box3 p{
+        font-size: 15px;
+    }
+    .education-box1, .education-box2, .education-box3 {
+        height: 137px;
+        width: 645px;
+        padding: 17px 33px 15px;
+        margin: 47px;
+    }
 
 
     .myskills-text h2 {
@@ -903,6 +911,9 @@ footer p:nth-child(2){
         margin: -31px auto;
         padding-bottom: 92px;
 
+    }
+    .button-read .button {
+        margin-left: 317px;
     }
     .service h2 {
         width: 700px;
@@ -934,6 +945,15 @@ footer p:nth-child(2){
         width: 700px;
         font-size: 33px;
         margin: -42px auto;
+    }
+    .projects-detail {
+        font-size: 20px;
+        padding: 45px 38px;
+    }
+
+    .projects2-box img {
+        width: 182px;
+        height: 145px;
     }
     .contact .content h2 {
         font-size: 40px;
