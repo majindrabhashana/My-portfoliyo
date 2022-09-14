@@ -672,6 +672,27 @@ footer p:nth-child(2){
 
         right: 6%;
     }
+    .hero aside {
+        right: 5%;
+    }
+
+    .hero aside i {
+        font-size: 37px;
+    }
+    .about-text {
+        font-size: 38px;
+        width: 1000px;
+        margin: -41px auto;
+
+    }
+
+    .detail {
+
+        font-size: 20px;
+        padding: 56px 60px;
+
+    }
+
 
 
 }
