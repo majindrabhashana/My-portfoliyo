@@ -645,6 +645,20 @@ footer p:nth-child(2){
         margin: 46px 32px;
 
     }
+    .projects h2 {
+        font-size: 45px;
+    }
+    .projects-box {
+        height: 266px;
+    }
+    .contact .content h2 {
+        font-size: 45px;
+
+    }
+
+
+
+}
 
 
 }
