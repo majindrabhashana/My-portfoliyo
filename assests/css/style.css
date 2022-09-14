@@ -835,9 +835,14 @@ footer p:nth-child(2){
 
     }
 
+}
+@media  screen and (max-width: 768px) {
 
+    nav > ul > li {
 
-
+        padding: 17px;
+        font-size: 18px;
+    }
 }
 
 
