@@ -843,6 +843,43 @@ footer p:nth-child(2){
         padding: 17px;
         font-size: 18px;
     }
+    .main-image > img {
+        width: 284px;
+        height: 322px;
+    }
+    .main-image>img {
+        left: 58px;
+        top: 60px;
+    }
+    .main-content > h2 {
+        font-size: 30px;
+    }
+
+    .main-content h2:first-child {
+        top: 13%;
+        right: 20%;
+    }
+
+
+    .main-content h2:last-child {
+        top: 11%;
+        right: 5%;
+        margin-top: 71px;
+    }
+    .hero aside i {
+        font-size: 32px;
+        margin: 18px 17px;
+    }
+    .hero aside h4 {
+        font-size: 27px;
+        margin: 20px 86px;
+    }
+    .hero aside {
+
+        bottom: 26%;
+        right: 14%;
+    }
+
 }
 
 
