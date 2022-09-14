@@ -597,7 +597,26 @@ footer p:nth-child(2){
         width: 400px;
         margin: 49px;
     }
+    .myskills-text h2 {
+        font-size: 45px;
+        width: 1130px;
+        margin: -10px auto;
+        padding-bottom: 46px;
+    }
+    .skill section:nth-child(2) {
+        width: 883px;
+        height: 366px;
+        gap: 49px;
+    }
+    .button-read .button {
+        border: 2px solid transparent;
+        padding: 14px 30px;
+        border-radius: 30px;
+        margin-left: 660px;
+        margin-bottom: 30px;
+        top: 47px;
 
+    }
 
 
 }
