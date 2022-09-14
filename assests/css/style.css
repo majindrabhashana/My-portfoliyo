@@ -663,6 +663,16 @@ footer p:nth-child(2){
         height: 409px;
 
     }
+    .main-content > h2 {
+
+        font-size: 38px;
+
+    }
+    .main-content h2:last-child {
+
+        right: 6%;
+    }
+
 
 }
 
