@@ -692,6 +692,23 @@ footer p:nth-child(2){
         padding: 56px 60px;
 
     }
+    .education-title {
+
+        font-size: 40px;
+        width: 954px;
+        margin: -62px auto;
+
+    }
+
+    .education-box1, .education-box2, .education-box3 {
+
+        height: 166px;
+        width: 614px;
+        padding: 17px 47px 19px;
+        margin: 59px;
+
+    }
+
 
 
 
