@@ -635,6 +635,16 @@ footer p:nth-child(2){
         line-height: 19px;
         margin-bottom: 14px;
     }
+    .tools h2 {
+
+        font-size: 45px;
+        margin: -10px auto;
+    }
+    .tools-box img {
+        width: 8%;
+        margin: 46px 32px;
+
+    }
 
 
 }
