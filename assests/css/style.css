@@ -557,20 +557,34 @@ footer p:nth-child(2){
 
         right: 18%;
     }
-}
-.main-content h2:last-child {
-    right: 3%;
-}
-.hero aside {
-    right: 15%;
-}
-.about-text {
 
-    font-size: 46px;
-    margin: -10px auto;
+    .main-content h2:last-child {
+        right: 3%;
+    }
+
+    .hero aside {
+        right: 15%;
+    }
+
+    .about-text {
+
+        font-size: 46px;
+        margin: -10px auto;
+    }
+    .detail {
+
+        font-size: 26px;
+        padding: 43px 54px;
+    }
+    .about section:last-child button {
+
+        text-decoration: none;
+        border: 4px solid transparent;
+        padding: 13px 30px;
+        border-radius: 30px;
+    }
+
+
 }
-
-
-
 
 
