@@ -558,6 +558,17 @@ footer p:nth-child(2){
         right: 18%;
     }
 }
+.main-content h2:last-child {
+    right: 3%;
+}
+.hero aside {
+    right: 15%;
+}
+.about-text {
+
+    font-size: 46px;
+    margin: -10px auto;
+}
 
 
 
