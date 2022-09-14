@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 
@@ -196,6 +197,9 @@ nav>ul>li>a:hover{
     overflow: hidden;
     text-align: center;
 }
+/*.education-box1, .education-box2, .education-box3 p{*/
+/*    font-size: 20px;*/
+/*}*/
 .education-box1{
     align-self: self-end;
 }
@@ -394,7 +398,7 @@ nav>ul>li>a:hover{
     color: black;
     font-size: 50px;
     width: 1000px;
-    margin:  auto;
+    margin:  10px auto;
     text-align: center;
 }
 .projects-detail{
@@ -452,7 +456,8 @@ nav>ul>li>a:hover{
 .contact .content h2{
     font-size: 70px;
     font-weight: 500;
-    color: white;
+    color: black;
+
 }
 .container{
     width: 100%;
@@ -547,6 +552,13 @@ footer p:nth-child(2){
     text-align: center;
     line-height: 26px;
 }
+@media  screen and (max-width: 1440px) {
+    .main-content h2:first-child {
+
+        right: 18%;
+    }
+}
+
 
 
 
