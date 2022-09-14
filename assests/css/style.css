@@ -909,6 +909,23 @@ footer p:nth-child(2){
         font-size: 33px;
         margin: -46px auto;
     }
+    .service2-box h5 {
+        font-size: 22px;
+        margin-bottom: -1px;
+    }
+    .service2-box img {
+        width: 79px;
+        height: 40px;
+    }
+    .pra p {
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .service2-box .button {
+        border: 0px solid transparent;
+        padding: 8px 30px;
+
+    }
     .tools h2 {
         width: 700px;
     }
