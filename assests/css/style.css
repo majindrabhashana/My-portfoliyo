@@ -655,11 +655,14 @@ footer p:nth-child(2){
         font-size: 45px;
 
     }
-
-
-
 }
+@media  screen and (max-width: 1024px) {
+    .main-image > img {
 
+        width: 386px;
+        height: 409px;
+
+    }
 
 }
 
