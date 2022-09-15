@@ -1328,6 +1328,58 @@ footer p:nth-child(2){
         padding: 0px;
         font-size: 12px;
     }
+
+    .main-image>img {
+        left: 1px;
+        top: 153px;
+    }
+    .main-image > img {
+        width: 132px;
+        height: 157px;
+    }.main-content h2:first-child {
+         top: 28%;
+         right: 5%;
+         font-size: 26px;
+     }
+    .main-content h2:last-child {
+        top: 25%;
+        right: 1%;
+        margin-top:52px;
+    }
+    .main-content > h2 {
+        font-size: 14px;
+    }
+    .hero aside {
+        bottom: 25%;
+        right: 10%;
+    }
+    .detail p:first-child {
+        flex-basis: 86%;
+    }
+    .about-text {
+        font-size: 20px;
+        margin: -44px auto;
+    }
+    .detail {
+        font-size: 12px;
+        padding: 65px 9px;
+    }
+    .education-title {
+        font-size: 21px;
+        margin: -23px auto;
+    }
+    .education-box1, .education-box2, .education-box3 {
+        height: 105px;
+
+        padding: 18px 6px 25px;
+        margin: 15px;
+    }
+
+
+    .education-box1, .education-box2, .education-box3 p {
+        font-size: 9px;
+    }
+
     .skill section:nth-child(2) {
         width: 291px;
         gap: 5px;
@@ -1342,6 +1394,22 @@ footer p:nth-child(2){
     .button-read .button {
         padding: 3px 19px;
         margin-left: 95px;
+    }
+    .service2-box h5 {
+        font-size: 11px;
+        margin-bottom: 2px;
+    }
+    .pra p {
+        line-height: 12px;
+        font-size: 10px;
+        margin-bottom: 19px;
+    }
+    .service2-box .button {
+        padding: 5px 20px;
+        font-size: 6px;
+    }
+    .tools-box {
+        margin: 12px;
     }
 }
 
