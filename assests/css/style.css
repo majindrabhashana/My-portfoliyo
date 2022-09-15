@@ -1411,6 +1411,54 @@ footer p:nth-child(2){
     .tools-box {
         margin: 12px;
     }
+    .projects h2 {
+        width: 297px;
+        font-size: 21px;
+        margin: -45px auto;
+    }
+    .projects-detail {
+        font-size: 15px;
+        padding: 47px 12px;
+    }
+    .projects2-box {
+        padding: 16px 11px;
+        margin: 3px;
+        font-size: 10px;
+    }
+    .projects2-box img {
+        width: 77px;
+        height: 92px;
+    }
+    .projects2-box .button {
+        padding: -5px 1px;
+        font-size: 9px;
+    }
+    .contact {
+        padding: 40px 2px;
+        margin-top: 78px;
+    }
+    .container .contactInfo .box01 .icon img {
+        width: 25px;
+        height: 23px;
+        border-radius: 15%;
+    }
+    .container .contactInfo .box01 .icon-text {
+
+        margin-left: 0px;
+        font-size: 9px;
+
+    }
+    .container {
+        width: 100%;
+        margin-top: 26px;
+    }
+    .contactForm button {
+        padding: 6px 25px;
+        border-radius: 21px;
+
+    }
+
+
 }
 
 
