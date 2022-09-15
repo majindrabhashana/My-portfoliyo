@@ -975,4 +975,40 @@ footer p:nth-child(2){
     }
 }
 
+@media  screen and (max-width: 768px) {
+    .about-text {
+
+        width:300px;
+
+    }
+    .education-title {
+        width:300px;
+
+
+    }
+    .myskills-text h2 {
+        width: 300px;
+
+    }
+    .skill section:nth-child(2) {
+        width: 284px;
+        gap: 7px;
+    }
+    .service h2 {
+        width: 300px;
+    }
+    .tools h2 {
+        width: 300px;
+    }
+    .projects h2 {
+        width: 300px;
+
+    }
+    footer p:nth-child(2) {
+        width: 300px;
+    }
+
+}
+
+
 
