@@ -977,7 +977,10 @@ footer p:nth-child(2){
 
 @media  screen and (max-device-width: 425px) {
 
-
+    nav > ul > li {
+        padding: 1px;
+        font-size: 17px;
+    }
     .main-image>img {
         left: 13px;
         top: 119px;
