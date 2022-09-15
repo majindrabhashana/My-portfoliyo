@@ -976,6 +976,44 @@ footer p:nth-child(2){
 }
 
 @media  screen and (max-width: 768px) {
+
+
+
+    .main-image>img {
+        left: 13px;
+        top: 119px;
+    }
+    .main-image > img {
+        width: 168px;
+        height: 181px;
+    }
+
+    .main-content > h2 {
+        font-size: 18px;
+    }
+    .main-content h2:first-child {
+        top: 24%;
+        right: 11%;
+        font-size: 27px;
+    }
+    .main-content h2:last-child {
+        top: 23%;
+        right: 1%;
+        margin-top: 72px;
+    }
+    .hero aside {
+        bottom: 23%;
+        right: 16%;
+    }
+    .hero aside i {
+        font-size: 25px;
+        margin: 17px 4px;
+    }
+    .hero aside h4 {
+        font-size: 21px;
+        margin: 15px 22px;
+    }
+
     .about-text {
 
         width:300px;
@@ -1007,6 +1045,7 @@ footer p:nth-child(2){
     footer p:nth-child(2) {
         width: 300px;
     }
+
 
 }
 
