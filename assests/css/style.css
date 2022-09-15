@@ -975,7 +975,7 @@ footer p:nth-child(2){
     }
 }
 
-@media  screen and (max-device-width: 425px) {
+@media screen and (max-device-width: 425px) {
 
     nav > ul > li {
         padding: 1px;
@@ -1028,20 +1028,26 @@ footer p:nth-child(2){
         padding: 60px 16px;
     }
 
-    .education-title {
-        width:300px;
-        font-size: 23px;
+    .education-title{
+
+        font-size: 24px;
+        width: 250px;
+        margin: -28px auto;
+
 
     }
-    .main-box {
-        width: 300px;
-        height: 420px;
+    .main-box{
+        width: 1500px;
+        height:439px;
+        max-width: 95%;
+
     }
     .education-box1, .education-box2, .education-box3 {
-        height: 170px;
-        width: 634px;
-        padding: 9px 42px 0px;
-        margin: 43px;
+
+        height: 139px;
+        width: 450px;
+        padding: 10px 10px 35px;
+        margin: 17px;
 
     }
 
@@ -1188,11 +1194,9 @@ footer p:nth-child(2){
         font-size: 24px;
     }
 
-
-
-
-
 }
+
+
 
 
 
