@@ -1197,7 +1197,10 @@ footer p:nth-child(2){
 }
 
 @media screen and (max-device-width: 375px){
-
+    nav > ul > li {
+        padding: 2px;
+        font-size: 14px;
+    }
     .main-image > img {
         width: 143px;
         height: 162px;
@@ -1317,6 +1320,28 @@ footer p:nth-child(2){
         width: 300px;
         font-size: 20px;
         line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    nav > ul > li {
+        padding: 0px;
+        font-size: 12px;
+    }
+    .skill section:nth-child(2) {
+        width: 291px;
+        gap: 5px;
+    }
+    .skill-deatail div h5 {
+        left: 10px;
+    }
+    .skill-deatail img {
+        left: 0px;
+        top: 20px;
+    }
+    .button-read .button {
+        padding: 3px 19px;
+        margin-left: 95px;
     }
 }
 
