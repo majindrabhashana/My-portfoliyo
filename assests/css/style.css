@@ -1196,6 +1196,44 @@ footer p:nth-child(2){
 
 }
 
+@media screen and (max-device-width: 375px){
+
+    .main-image > img {
+        width: 143px;
+        height: 162px;
+    }
+    .main-image>img {
+        left: 6px;
+        top: 108px;
+    }
+    .main-content h2:last-child {
+        top: 23%;
+        right: 1%;
+        margin-top: 72px;
+    }
+    .main-content > h2 {
+        font-size: 17px;
+    }
+    .hero aside {
+        bottom: 26%;
+        right: 13%;
+    }
+    .about-text {
+
+        font-size: 22px;
+        margin: -60px auto;
+    }
+    .detail {
+        font-size: 15px;
+        padding: 60px 16px;
+    }
+
+    .skill-deatail div h5 {
+        left: 27px;
+
+    }
+}
+
 
 
 
