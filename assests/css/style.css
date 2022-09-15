@@ -1227,6 +1227,25 @@ footer p:nth-child(2){
         font-size: 15px;
         padding: 60px 16px;
     }
+    .education-title {
+        font-size: 23px;
+        margin: -24px auto;
+    }
+    .main-box {
+        width: 1500px;
+        height: 415px;
+        max-width: 95%;
+    }
+    .education-box1, .education-box2, .education-box3 {
+        height: 112px;
+        width: 450px;
+        padding: 19px 6px 31px;
+        margin: 19px;
+    }
+
+    .education-box1, .education-box2, .education-box3 p {
+        font-size: 11px;
+    }
     .skill-deatail div h5 {
         left: 27px;
 
@@ -1255,19 +1274,49 @@ footer p:nth-child(2){
         font-size: 12px;
         margin-bottom: 20px;
     }
-    .projects-detail {
-        font-size: 16px;
-        padding: 42px 29px;
-    }
+
     .tools-box {
 
         margin: 37px;
 
     }
+    .projects-detail {
+        font-size: 16px;
+        padding: 42px 29px;
+    }
+    .projects2-box {
+        height: 212px;
+        padding: 19px 10px;
+        margin: 3px;
+        font-size: 12px;
+    }
 
-    .skill-deatail div h5 {
-        left: 27px;
+    .projects2-box .button {
+        padding: 0px 15px;
+        font-size: 12px;
+    }
 
+    .contact .content h2 {
+        font-size: 32px;
+    }
+    .container .contactInfo .box01 .icon img {
+        width: 32px;
+        height: 32px;
+        border-radius: 34%;
+    }
+    .container .contactInfo .box01 .icon-text {
+        display: flex;
+        margin-left: 0px;
+        font-size: 11px;
+        color: black;
+    }
+    footer p:nth-child(1) {
+        font-size: 14px;
+    }
+    footer p:nth-child(2) {
+        width: 300px;
+        font-size: 20px;
+        line-height: 16px;
     }
 }
 
