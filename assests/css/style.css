@@ -975,8 +975,7 @@ footer p:nth-child(2){
     }
 }
 
-@media  screen and (max-width: 768px) {
-
+@media  screen and (device-width: 425px) {
 
 
     .main-image>img {
@@ -1017,16 +1016,62 @@ footer p:nth-child(2){
     .about-text {
 
         width:300px;
+        font-size: 23px;
+        margin: -63px auto;
 
     }
+    .detail {
+        font-size: 16px;
+        padding: 60px 16px;
+    }
+
     .education-title {
         width:300px;
-
+        font-size: 23px;
 
     }
+    .main-box {
+        width: 300px;
+        height: 420px;
+    }
+    .education-box1, .education-box2, .education-box3 {
+        height: 170px;
+        width: 634px;
+        padding: 9px 42px 0px;
+        margin: 43px;
+
+    }
+
+    .education-box1, .education-box2, .education-box3, p {
+        font-size: 13px;
+        margin-inside: 10px;
+
+    }
+
     .myskills-text h2 {
         width: 300px;
+        font-size: 23px;
 
+    }
+    .skill-deatail div h4 {
+        height: 28px;
+        left: 3px;
+        top: 21px;
+        font-size: 12px;
+    }
+    .skill-deatail img {
+        width: 21px;
+        height: 28px;
+        left: 7px;
+        top: 39px;
+    }
+    .skill-deatail div h5 {
+        left: 34px;
+        top: 16px;
+        font-size: 11px;
+    }
+    .button-read .button {
+        margin-left: 156px;
     }
     .skill section:nth-child(2) {
         width: 284px;
@@ -1034,12 +1079,35 @@ footer p:nth-child(2){
     }
     .service h2 {
         width: 300px;
+        font-size: 23px;
+    }
+    .service2-box {
+        height: 350px;
+        width: 224px;
+        padding: 9px 2px;
+        border-radius: 21px;
+        margin: 1px;
+    }
+    .service2-box img {
+        width: 55px;
+        height: 29px;
+    }
+    .service2-box h5 {
+        font-size: 14px;
+        margin-bottom: -4px;
+    }
+    .service2-box .button {
+        border: 0px solid transparent;
+        padding: 5px 20px;
+        font-size: 8px;
     }
     .tools h2 {
         width: 300px;
+        font-size: 23px;
     }
     .projects h2 {
         width: 300px;
+        font-size: 23px;
 
     }
     footer p:nth-child(2) {
@@ -1048,6 +1116,8 @@ footer p:nth-child(2){
 
 
 }
+
+
 
 
 
