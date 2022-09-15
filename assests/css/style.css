@@ -1227,6 +1227,43 @@ footer p:nth-child(2){
         font-size: 15px;
         padding: 60px 16px;
     }
+    .skill-deatail div h5 {
+        left: 27px;
+
+    }
+    .button-read .button {
+
+        padding: 6px 25px;
+        margin-left: 134px;
+
+
+    }
+    .service h2 {
+        width: 250px;
+        font-size: 23px;
+    }
+    .service2-box img {
+        width: 45px;
+        height: 23px;
+    }
+    .service2-box {
+        height: 355px;
+
+    }
+    .pra p {
+        line-height: 12px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .projects-detail {
+        font-size: 16px;
+        padding: 42px 29px;
+    }
+    .tools-box {
+
+        margin: 37px;
+
+    }
 
     .skill-deatail div h5 {
         left: 27px;
