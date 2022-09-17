@@ -133,7 +133,7 @@ nav>ul>li>a:hover{
     display: flex;
     font-size: 30px;
     color: white;
-    padding: 50px 60px;
+    padding: 0px 60px;
     letter-spacing: 1px;
 }
 
@@ -172,9 +172,9 @@ nav>ul>li>a:hover{
     text-align: center;
 
 }
-.main-box{
+.main-box {
     width: 1500px;
-    height: 600px;
+    height: 470px;
     max-width: 95%;
     top: 0;
     right: 0;
@@ -185,7 +185,6 @@ nav>ul>li>a:hover{
     align-items: center;
     justify-content: center;
 }
-
 .education-box1, .education-box2, .education-box3{
     height: 50px;
     width: 450px;
@@ -227,9 +226,9 @@ nav>ul>li>a:hover{
     margin-top: 100px;
 
 }
-.skill section:nth-child(2){
+.skill section:nth-child(2) {
     width: 900px;
-    height: 400px;
+    height: 325px;
     position: relative;
     left: 0;
     right: 0;
@@ -238,7 +237,7 @@ nav>ul>li>a:hover{
     margin: auto;
     display: grid;
     grid-template-rows: repeat(2,1fr);
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 50px;
 }
 .skill section:nth-child(2) div{
@@ -325,8 +324,8 @@ nav>ul>li>a:hover{
 }
 
 .service2-box img {
-    width:150px;
-    height: 100px;
+    width: 104px;
+    height: 43px;
 }
 .service2-box h5{
     font-size: 30px;
@@ -372,12 +371,11 @@ nav>ul>li>a:hover{
     text-align: center;
 
 }
-.tools-box img{
-    width: 10%;
+.tools-box img {
+    width: 9%;
     height: 20%;
     margin: 50px 32px;
     transition: transform .4s;
-
 }
 
 .tools-box img:hover{
@@ -408,11 +406,11 @@ nav>ul>li>a:hover{
     padding: 50px 60px;
     letter-spacing: 3px;
 }
-.projects-box{
+.projects-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 242px;
 }
 .projects2-box{
     height: 300px;
@@ -552,6 +550,8 @@ footer p:nth-child(2){
     text-align: center;
     line-height: 26px;
 }
+
+
 @media  screen and (max-width: 1440px) {
     .main-content h2:first-child {
 
@@ -980,6 +980,7 @@ footer p:nth-child(2){
     nav > ul > li {
         padding: 1px;
         font-size: 17px;
+        padding-top: 25px;
     }
     .main-image>img {
         left: 13px;
@@ -1200,7 +1201,9 @@ footer p:nth-child(2){
     nav > ul > li {
         padding: 2px;
         font-size: 14px;
+        padding-top: 25px;
     }
+
     .main-image > img {
         width: 143px;
         height: 162px;
@@ -1326,7 +1329,8 @@ footer p:nth-child(2){
 @media screen and (max-width: 320px) {
     nav > ul > li {
         padding: 0px;
-        font-size: 12px;
+        font-size: 13px;
+        padding-top: 25px;
     }
 
     .main-image>img {
