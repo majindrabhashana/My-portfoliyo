@@ -17,13 +17,7 @@ wireframe
 
 login page-https://wireframe.cc/pro/pp/fe95aaaaa581898#1
 
-home page-https://wireframe.cc/pro/pp/fe95aaaaa581898#0tf82nqb
 
-customer page-https://wireframe.cc/pro/pp/fe95aaaaa581898#11lapgus
-
-item page -https://wireframe.cc/pro/pp/fe95aaaaa581898#7noohjmx
-
-oders page-https://wireframe.cc/pro/pp/fe95aaaaa581898#f484rlaq
 
 
 
