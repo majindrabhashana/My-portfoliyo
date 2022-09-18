@@ -11,6 +11,8 @@ mock up- https://www.figma.com/file/sMABR0wtmhPl2bu0uaSf0h/Untitled?node-id=1%3A
 
 
 #POS System
+
+
 wireframe 
 
 login page-https://wireframe.cc/pro/pp/fe95aaaaa581898#1
