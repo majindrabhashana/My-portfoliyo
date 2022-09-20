@@ -16,9 +16,6 @@ mock up- https://www.figma.com/file/sMABR0wtmhPl2bu0uaSf0h/Untitled?node-id=1%3A
 wireframe -https://wireframe.cc/pro/pp/fe95aaaaa581898#1
 
 
-
-
-
 site map-https://www.gloomaps.com/RH7VD7VHYs
 
 
