@@ -249,14 +249,13 @@
 
 </main>
 
-<!--&lt;!&ndash; item-->
-<!--   &ndash;&gt;-->
+<!--item-->
 <main id="main3">
     <section class="main-section">
         <section class="customer-head">
             <ul class="breadcrumb">
                 <img src="assests/img/to-do-list.png" width="36px">
-<!--                <li><a href="#">Dashboard /</a></li>-->
+
                 <li class="active"> Items</li>
             </ul>
         </section>
@@ -588,6 +587,36 @@
 
 
 <script src="assests/js/bootstrap.min.js"></script>
+<script src="assests/js/jquery-3.6.1.min.js"></script>
+<script>
+    $("#home").click(function () {
+        $("#main1").css("display","inline")
+        $("#main2").css("display","none")
+        $("#main3").css("display","none")
+        $("#main4").css("display","none")
+    });
 
+    $("#customer").click(function () {
+        $("#main1").css("display","none")
+        $("#main2").css("display","flex")
+        $("#main3").css("display","none")
+        $("#main4").css("display","none")
+    });
+
+    $("#item").click(function () {
+        $("#main1").css("display","none")
+        $("#main2").css("display","none")
+        $("#main3").css("display","flex")
+        $("#main4").css("display","none")
+    });
+
+    $("#orders").click(function () {
+        $("#main1").css("display","none")
+        $("#main2").css("display","none")
+        $("#main3").css("display","none")
+        $("#main4").css("display","flex")
+    });
+
+</script>
 </body>
 </html>
