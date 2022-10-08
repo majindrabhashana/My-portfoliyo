@@ -438,56 +438,7 @@ nav>ul>li>a:hover{
     border-radius: 30px;
     transition: .4s;
 }
-.assignments {
-    width: 100%;
-    padding: 100px 0px;
-    height: 80vh;
-    background-image: url(../img/IMG-20200718-WA0011.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-top: 100px;
 
-}
-
-.assignments h2{
-    color: black;
-    font-size: 50px;
-    width: 1000px;
-    margin:  40px auto;
-    text-align: center;
-}
-.assignment-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 242px;
-}
-.assignment2-box{
-    height: 300px;
-    width: 400px;
-    padding: 20px 35px;
-    background: #D9D9D9;
-    border-radius: 20px;
-    margin: 25px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-
-}
-.assignment2-box img{
-    width:300px;
-    height: 200px;
-}
-.assignment2-box  .button{
-    background-color:#4360C9;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
 
 .contact{
     position: relative;
@@ -701,7 +652,7 @@ footer p:nth-child(2){
         margin: -18px auto;
     }
     .projects-box {
-        height: 266px;
+        height: 248px;
     }
     .contact .content h2 {
         font-size: 45px;
@@ -859,7 +810,7 @@ footer p:nth-child(2){
         padding: 40px 41px;
     }
     .projects-box {
-        height: 242px;
+        height: 220px;
     }
     .projects2-box {
         height: 264px;
@@ -934,8 +885,12 @@ footer p:nth-child(2){
 
     .about-text {
         width: 700px;
-        font-size: 33px;
+        font-size: 30px;
         margin: -43px auto;
+    }
+    .detail {
+        font-size: 20px;
+        padding: 44px 60px;
     }
 
 
@@ -971,6 +926,13 @@ footer p:nth-child(2){
         font-size: 33px;
         margin: -46px auto;
     }
+    .service2-box {
+        height: 332px;
+        width: 217px;
+        padding: 4px 4px;
+        border-radius: 20px;
+        margin: 12px;
+    }
     .service2-box h5 {
         font-size: 22px;
         margin-bottom: -1px;
@@ -995,16 +957,28 @@ footer p:nth-child(2){
 
         width: 700px;
         font-size: 33px;
-        margin: -42px auto;
+        margin: -48px auto;
     }
     .projects-detail {
         font-size: 20px;
         padding: 45px 38px;
     }
 
+    .projects2-box {
+        height: 264px;
+        width: 279px;
+        margin: 27px;
+    }
+
     .projects2-box img {
         width: 182px;
         height: 145px;
+    }
+    .projects2-box .button {
+        border: 2px solid transparent;
+        padding: 1px 26px;
+        border-radius: 30px;
+
     }
     .contact .content h2 {
         font-size: 40px;
@@ -1090,7 +1064,7 @@ footer p:nth-child(2){
     }
     .main-box{
         width: 1500px;
-        height:439px;
+        height:386px;
         max-width: 95%;
 
     }
@@ -1139,7 +1113,7 @@ footer p:nth-child(2){
         font-size: 23px;
     }
     .service2-box {
-        height:401px;
+        height:344px;
         width: 224px;
         padding: 4px 2px;
         border-radius: 21px;
@@ -1152,6 +1126,11 @@ footer p:nth-child(2){
     .service2-box h5 {
         font-size: 14px;
         margin-bottom: -4px;
+    }
+    .pra p {
+        line-height: 12px;
+        font-size: 12px;
+        margin-bottom: 14px;
     }
     .service2-box .button {
         border: 0px solid transparent;
@@ -1185,7 +1164,7 @@ footer p:nth-child(2){
     }
     .projects-detail {
         font-size: 17px;
-        padding: 42px 29px;
+        padding:35px 29px;
     }
     .projects2-box {
         height: 241px;
@@ -1282,7 +1261,10 @@ footer p:nth-child(2){
     }
     .detail {
         font-size: 15px;
-        padding: 60px 16px;
+        padding: 53px 16px;
+    }
+    .about section:last-child button {
+        padding: 7px 30px;
     }
     .education-title {
         font-size: 23px;
@@ -1290,7 +1272,7 @@ footer p:nth-child(2){
     }
     .main-box {
         width: 1500px;
-        height: 415px;
+        height: 386px;
         max-width: 95%;
     }
     .education-box1, .education-box2, .education-box3 {
@@ -1458,6 +1440,9 @@ footer p:nth-child(2){
         line-height: 12px;
         font-size: 10px;
         margin-bottom: 19px;
+    }
+    .service2-box {
+        height: 349px;
     }
     .service2-box .button {
         padding: 5px 20px;
