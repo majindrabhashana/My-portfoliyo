@@ -1,4 +1,4 @@
-$("#saveItem").click(function () {
+$("#saveItem").click(function (){
 
     let itemCode = $("#txtItemCode").val();
     let itemName = $("#txtItemName").val();
@@ -12,13 +12,13 @@ $("#saveItem").click(function () {
         unitPrice: unitPrice,
 
     }
+
     items.push(itemObject);
 
+    clearItemData();
     loadAllItems();
     bindRowClickEventTable();
-    clearItemData();
-
-
+    loadAllItemForOption();
 });
 
 function loadAllItems() {
@@ -36,7 +36,6 @@ function loadAllItems() {
     }
 }
 
-
 function searchItem(code) {
     for (let item of items){
         if (item.code == code){
@@ -44,6 +43,7 @@ function searchItem(code) {
         }
     }
 }
+
 $(document).on("click", "#btn-editItem", function (){
     bindRowClickEventTable()
 });
@@ -62,6 +62,7 @@ function bindRowClickEventTable() {
 
     });
 }
+
 $("#updateItem").click(function (){
     let itemCode =  $("#txtItemCodeEdit").val();
     let message = updateItem(itemCode);
@@ -86,6 +87,7 @@ function updateItem(itemCode) {
         return false;
     }
 }
+
 $("#tblItem").on("click", ".delete-item", function (){
     if (confirm("Are you sure want to delete this record!")) {
         $(this).closest('tr').remove();

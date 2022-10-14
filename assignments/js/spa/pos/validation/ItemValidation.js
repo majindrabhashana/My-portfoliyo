@@ -16,6 +16,7 @@ $("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('keydown', funct
         event.preventDefault();
     }
 });
+
 $("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('keyup', function (event) {
     checkValidityItem();
 });
@@ -36,6 +37,7 @@ function checkValidityItem() {
     }
     setItemButtonState(errorCount);
 }
+
 $("#txtItemCode").on('keydown', function (event) {
     if (event.key == "Enter" && check(itemCodeRegEx, $("#txtItemCode"))) {
         $("#txtItemName").focus();
@@ -43,11 +45,13 @@ $("#txtItemCode").on('keydown', function (event) {
         focusText($("#txtItemCode"));
     }
 });
+
 $("#txtItemName").on('keydown', function (event) {
     if (event.key == "Enter" && check(itemNameRegEx, $("#txtItemName"))) {
         focusText($("#txtItemQty"));
     }
 });
+
 $("#txtItemQty").on('keydown', function (event) {
     if (event.key == "Enter" && check(itemQtyRegEx, $("#txtItemQty"))) {
         focusText($("#txtItemUnitPrice"));
@@ -85,6 +89,7 @@ function textSuccess(txtField,error) {
         txtField.parent().children('span').text(error);
     }
 }
+
 function defaultText(txtField,error) {
     txtField.css("border", "1px solid #ced4da");
     txtField.parent().children('span').text(error);
@@ -93,6 +98,7 @@ function defaultText(txtField,error) {
 function focusText(txtField) {
     txtField.focus();
 }
+
 function setItemButtonState(value){
     if (value>0){
         $("#saveItem").attr('disabled',true);
@@ -100,6 +106,7 @@ function setItemButtonState(value){
         $("#saveItem").attr('disabled',false);
     }
 }
+
 function clearAllTexts() {
     $("#txtItemCode").focus();
     $("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").val("");
