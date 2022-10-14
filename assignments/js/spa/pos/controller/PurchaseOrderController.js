@@ -26,3 +26,14 @@ $("#selectItemCode").click(function (){
     $("#qtyOnHand").val(search.qty);
     $("#unitPrice").val(search.unitPrice);
 });
+
+$("#addItem").click(function (message){
+    let cusId = $("#selectCustomerID").val();
+    let cusName = $("#orderCustomerName").val();
+    let itemCode = $("#selectItemCode").val();
+    let itemName = $("#itemDescription").val();
+    let qtyOnHand = $("#qtyOnHand").val();
+    let unitPrice = $("#unitPrice").val();
+    let qty = $("#qty").val();
+
+    })
