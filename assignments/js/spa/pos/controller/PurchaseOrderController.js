@@ -47,6 +47,7 @@ $("#addItem").click(function (message){
     }
     orders.push(orderObject);
 
+    cleatOrderData();
     loadAllOrder();
     itemQtyLoad(itemCode, qty);
 
