@@ -62,3 +62,8 @@ $("#txtItemUnitPrice").on('keydown', function (event) {
         }
     }
 });
+
+function check(regex, txtField) {
+    let inputValue = txtField.val();
+    return regex.test(inputValue) ? true : false;
+}
