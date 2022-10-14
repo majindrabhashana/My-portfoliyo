@@ -15,6 +15,7 @@ $("#saveCustomer").click(function () {
 
     customer.push(customerObject)
 
+    clearData();
     loadAllCustomers();
     bindRowClickEvents();
 
@@ -88,7 +89,13 @@ function updateCustomer(customerID) {
     }
 }
 
-
+$("#tblCustomer").on("click", ".delete", function () {
+    if (confirm("Are you sure want to delete this record!")) {
+        $(this).closest('tr').remove();
+    } else {
+        alert("No such customer to delete.");
+    }
+});
 
 
 
