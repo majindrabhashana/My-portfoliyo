@@ -38,7 +38,7 @@ $("#addItem").click(function (message){
 
     var order = saveOrder(cusId,cusName,itemCode,itemName,qtyOnHand,unitPrice,qty);
 
-    orders.push(orderObject);
+    orders.push(order);
 
     cleatOrderData();
     loadAllOrder();
