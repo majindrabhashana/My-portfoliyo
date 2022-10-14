@@ -36,4 +36,14 @@ $("#addItem").click(function (message){
     let unitPrice = $("#unitPrice").val();
     let qty = $("#qty").val();
 
+    var orderObject = {
+        id: cusId,
+        name: cusName,
+        code: itemCode,
+        itemName: itemName,
+        qtyOnHand: qtyOnHand,
+        price:unitPrice,
+        qty:qty
+    }
+
     })
