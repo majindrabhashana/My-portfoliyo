@@ -48,6 +48,7 @@ $("#addItem").click(function (message){
     orders.push(orderObject);
 
     loadAllOrder();
+    itemQtyLoad(itemCode, qty);
 
     })
 function loadAllOrder() {
@@ -62,6 +63,17 @@ function loadAllOrder() {
                         </td>
                     </tr>`;
         $("#tblOrder").append(all);
+    }
+
+}
+function itemQtyLoad(ItemCode, Qty) {
+    for (var item of items){
+        if (item.code == ItemCode){
+            item.qty = item.qty-Qty;
+            return true;
+        }else {
+            return  false;
+        }
     }
 
 }
