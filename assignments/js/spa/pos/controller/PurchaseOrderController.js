@@ -1,3 +1,7 @@
+$(document).ready(function (){
+    generateOrderID();
+});
+
 function loadAllCustomersForOption() {
     $("#selectCustomerID").empty();
     for (let cus of customers) {
@@ -27,7 +31,7 @@ $("#selectItemCode").click(function (){
     $("#unitPrice").val(search.unitPrice);
 });
 
-$("#addItem").click(function (message){
+$("#addItem").click(function (){
     let cusId = $("#selectCustomerID").val();
     let cusName = $("#orderCustomerName").val();
     let itemCode = $("#selectItemCode").val();
@@ -40,8 +44,9 @@ $("#addItem").click(function (message){
 
     orders.push(order);
 
-    cleatOrderData();
+
     loadAllOrder();
+    cleatOrderData();
     itemQtyLoad(itemCode, qty);
 
     })
@@ -51,7 +56,9 @@ function loadAllOrder() {
     for (var order of orders){
         let total = order.qty * order.price;
         $("#total").text(total);
-        var all = `<tr><td>${order.code}</td><td>${order.itemName}</td><td>${order.price}</td><td>${order.qty}</td><td>${total}</td>
+        $("#subtotal").text(total);
+        var all = `<tr><td>${order.id}</td><td>${order.code}</td><td>${order.itemName}</td><td>${order.price}</td><td>${order.qty}</td><td>${total}</td>
+                  
                         <td>
                         <button class="btn btn-danger btn-mini delete-order"><i class="fa-solid fa-trash"></i> Delete</button>
                         </td>
