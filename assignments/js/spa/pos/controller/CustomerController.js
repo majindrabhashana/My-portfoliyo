@@ -16,7 +16,7 @@ $("#saveCustomer").click(function () {
     customer.push(customerObject)
 
     loadAllCustomers();
-
+    bindRowClickEvents();
 
 });
 
