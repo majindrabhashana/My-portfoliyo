@@ -100,3 +100,8 @@ function setItemButtonState(value){
         $("#saveItem").attr('disabled',false);
     }
 }
+function clearAllTexts() {
+    $("#txtItemCode").focus();
+    $("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").val("");
+    checkValidity();
+}
