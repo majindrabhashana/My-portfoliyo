@@ -12,4 +12,6 @@ $("#saveItem").click(function () {
         unitPrice: unitPrice,
 
     }
+    items.push(itemObject);
+
 });
