@@ -86,7 +86,13 @@ function updateItem(itemCode) {
         return false;
     }
 }
-
+$("#tblItem").on("click", ".delete-item", function (){
+    if (confirm("Are you sure want to delete this record!")) {
+        $(this).closest('tr').remove();
+    } else {
+        alert("No such item to delete.");
+    }
+});
 
 function clearItemData() {
     $("#txtItemCode").val("");
