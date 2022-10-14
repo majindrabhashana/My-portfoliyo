@@ -61,3 +61,12 @@ function bindRowClickEventTable() {
 
     });
 }
+$("#updateItem").click(function (){
+    let itemCode =  $("#txtItemCodeEdit").val();
+    let message = updateItem(itemCode);
+    if (message){
+        alert("Item Update Successfully");
+    }else {
+        alert("Update Failed..!");
+    }
+});
