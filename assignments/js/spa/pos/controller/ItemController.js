@@ -5,13 +5,8 @@ $("#saveItem").click(function (){
     let qty = $("#txtItemQty").val();
     let unitPrice = $("#txtItemUnitPrice").val();
 
-    var itemObject = {
-        code: itemCode,
-        itemName: itemName,
-        qty: qty,
-        unitPrice: unitPrice,
-
-    }
+    var item = saveItem(itemCode,itemName,qty,unitPrice);
+    items.push(item);
 
     items.push(itemObject);
 
