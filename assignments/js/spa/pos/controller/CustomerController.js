@@ -15,9 +15,9 @@ $("#saveCustomer").click(function () {
         contact: customerContact,
         salary: customerSalary
     }
-
+    var customer = saveCustomer(customerID,customerName,customerAddress,customerContact,customerSalary);
     // push data
-    customers.push(customerObject);
+    customers.push(customer);
 
 
     clearData();
