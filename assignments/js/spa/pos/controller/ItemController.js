@@ -13,6 +13,7 @@ $("#saveItem").click(function () {
 
     }
     items.push(itemObject);
+    loadAllItems();
 
 });
 
