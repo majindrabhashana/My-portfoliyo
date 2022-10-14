@@ -46,13 +46,6 @@ function searchCustomer(cusID) {
 
 
 
-
-
-
-
-
-
-
 function clearData() {
     $("#txtCustomerID").val("");
     $("#txtCustomerName").val("");
