@@ -16,3 +16,23 @@ $("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('keydown', funct
         event.preventDefault();
     }
 });
+$("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('keyup', function (event) {
+    checkValidityItem();
+});
+
+$("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('blur', function (event) {
+    checkValidityItem();
+});
+
+function checkValidityItem() {
+    let errorCount=0;
+    for (let validation of itemValidations) {
+        if (check(validation.reg,validation.field)) {
+            textSuccess(validation.field,"");
+        } else {
+            errorCount=errorCount+1;
+            setTextError(validation.field,validation.error);
+        }
+    }
+    setItemButtonState(errorCount);
+}
