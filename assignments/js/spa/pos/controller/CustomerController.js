@@ -1,10 +1,13 @@
+// Button Events
 $("#saveCustomer").click(function () {
+
     let customerID = $("#txtCustomerID").val();
     let customerName = $("#txtCustomerName").val();
     let customerAddress = $("#txtCustomerAddress").val();
     let customerContact = $("#txtCustomerContact").val();
     let customerSalary = $("#txtCustomerSalary").val();
-// object
+
+    // customer object
     var customerObject = {
         id: customerID,
         name: customerName,
@@ -13,29 +16,34 @@ $("#saveCustomer").click(function () {
         salary: customerSalary
     }
 
-    customer.push(customerObject)
+    // push data
+    customers.push(customerObject);
+
 
     clearData();
     loadAllCustomers();
     bindRowClickEvents();
+    loadAllCustomersForOption();
 
 });
 
 function loadAllCustomers() {
     $("#tblCustomer").empty();
 
-    for (var customer of customers){
-        var all= `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.contact}</td><td>${customer.salary}</td><td><button class="btn btn-warning btn-mini" data-bs-target="#editCustomers"
+    for (var customer of customers) {
+
+        var all = `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.contact}</td><td>${customer.salary}</td>
+                        <td><button class="btn btn-warning btn-mini" data-bs-target="#editCustomers"
                         data-bs-toggle="modal" id="btn-edit"><i class="fa-solid fa-pen-to-square"></i> Edit
                         </button>
                         <button class="btn btn-danger btn-mini delete"><i class="fa-solid fa-trash"></i> Delete</button>
                         </td>
                     </tr>`;
+
         $("#tblCustomer").append(all);
-
     }
-
 }
+
 function searchCustomer(cusID) {
     for (let customer of customers) {
         if (customer.id == cusID) {
@@ -43,9 +51,11 @@ function searchCustomer(cusID) {
         }
     }
 }
+
 $(document).on("click", "#btn-edit", function () {
     bindRowClickEvents();
 });
+
 function bindRowClickEvents() {
     $("#tblCustomer>tr").click(function () {
         let id = $(this).children(":eq(0)").text();
@@ -73,6 +83,7 @@ $("#updateCustomer").click(function (){
 
     }
 });
+
 function updateCustomer(customerID) {
     let customer = searchCustomer(customerID);
 
@@ -96,8 +107,6 @@ $("#tblCustomer").on("click", ".delete", function () {
         alert("No such customer to delete.");
     }
 });
-
-
 
 function clearData() {
     $("#txtCustomerID").val("");
