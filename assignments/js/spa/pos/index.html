@@ -484,10 +484,10 @@
 <!--item-->
 <main id="itemContent">
     <section class="main-section">
-        <section class="customer-head">
+        <section class="item-head">
             <ul class="breadcrumb">
-                <img src="assests/img/to-do-list.png" width="36px">
-
+                <img src="assests/img/to-do-list.png" width="35px">
+                <li><a href="#"></a></li>
                 <li class="active"> Items</li>
             </ul>
         </section>
@@ -496,7 +496,7 @@
             Back
         </button>
 
-        <section class="search">
+        <section class="search" >
             <form class="d-flex" role="search" style="background-color: #A8ACF6">
                 <input class="form-control me-2" type="search" placeholder="Search Item..." aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -511,25 +511,26 @@
             </div>
         </section>
 
-        <section class="cus-table">
-            <table class="table table-bordered">
-                <thead class="bg-danger text-white">
-                <tr style="background-color: #A8ACF6">
-                    <th>Item Code</th>
-                    <th>Item Name</th>
-                    <th>Qty</th>
-                    <th>Uniq Price</th>
-                    <th>Total</th>
-                    <th>Action</th>
-                </tr>
-                </thead>
-                <tbdoy id="tblItem">
 
-                </tbdoy>
-            </table>
+        <section class="item-table">
+            <div div class="col-md-12 mt-4" style="height:430px; overflow-y: scroll">
+                <table class="table table-bordered">
+                    <thead class="bg-danger text-white">
+                    <tr style="background-color: #A8ACF6">
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Qty</th>
+                        <th>Uniq Price</th>
+                        <th style="width: 190px">Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblItem">
+
+                    </tbody>
+                </table>
+            </div>
         </section>
     </section>
-
     <!-- item-form-save -->
 
     <div aria-hidden="true" aria-labelledby="itemLabel" class="modal fade" id="saveItems" tabindex="-1">
