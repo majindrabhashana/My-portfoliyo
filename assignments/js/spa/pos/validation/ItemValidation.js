@@ -89,3 +89,14 @@ function defaultText(txtField,error) {
     txtField.css("border", "1px solid #ced4da");
     txtField.parent().children('span').text(error);
 }
+
+function focusText(txtField) {
+    txtField.focus();
+}
+function setItemButtonState(value){
+    if (value>0){
+        $("#saveItem").attr('disabled',true);
+    }else{
+        $("#saveItem").attr('disabled',false);
+    }
+}
