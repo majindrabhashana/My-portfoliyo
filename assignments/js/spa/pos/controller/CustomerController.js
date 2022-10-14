@@ -13,6 +13,10 @@ $("#saveCustomer").click(function () {
         salary: customerSalary
     }
 
+    customer.push(customerObject)
+
+
+
 
 
 
