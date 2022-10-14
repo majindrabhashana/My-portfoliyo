@@ -15,7 +15,8 @@ $("#saveItem").click(function () {
     items.push(itemObject);
 
     loadAllItems();
-    bindRowClickEventTable()
+    bindRowClickEventTable();
+    clearItemData();
 
 
 });
@@ -70,3 +71,26 @@ $("#updateItem").click(function (){
         alert("Update Failed..!");
     }
 });
+
+function updateItem(itemCode) {
+    let item = searchItem(itemCode);
+
+    if (item != null){
+        item.code= $("#txtItemCodeEdit").val();
+        item.itemName = $("#txtItemNameEdit").val();
+        item.qty = $("#txtItemQtyEdit").val();
+        item.unitPrice = $("#txtItemUnitPriceEdit").val();
+        loadAllItems();
+        return true;
+    }else {
+        return false;
+    }
+}
+
+
+function clearItemData() {
+    $("#txtItemCode").val("");
+    $("#txtItemName").val("");
+    $("#txtItemQty").val("");
+    $("#txtItemUnitPrice").val("");
+}
