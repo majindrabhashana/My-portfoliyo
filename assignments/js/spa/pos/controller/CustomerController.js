@@ -17,6 +17,7 @@ $("#saveCustomer").click(function () {
 
     loadAllCustomers();
 
+
 });
 
 function loadAllCustomers() {
@@ -41,6 +42,9 @@ function searchCustomer(cusID) {
         }
     }
 }
+$(document).on("click", "#btn-edit", function () {
+    bindRowClickEvents();
+});
 
 
 
