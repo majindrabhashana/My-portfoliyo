@@ -45,5 +45,6 @@ $("#addItem").click(function (message){
         price:unitPrice,
         qty:qty
     }
+    orders.push(orderObject);
 
     })
