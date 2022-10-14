@@ -85,3 +85,13 @@ $("#tblOrder").on("click", ".delete-order", function (){
         alert("No such item to delete.");
     }
 });
+
+function cleatOrderData() {
+    $("#selectCustomerID").val("");
+    $("#orderCustomerName").val("");
+    $("#selectItemCode").val("");
+    $("#itemDescription").val("");
+    $("#qtyOnHand").val("");
+    $("#unitPrice").val("");
+    $("#qty").val("");
+}
