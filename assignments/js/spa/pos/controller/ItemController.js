@@ -32,3 +32,11 @@ function loadAllItems() {
     }
 }
 
+
+function searchItem(code) {
+    for (let item of items){
+        if (item.code == code){
+            return item;
+        }
+    }
+}
