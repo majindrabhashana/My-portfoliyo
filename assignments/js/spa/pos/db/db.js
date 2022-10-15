@@ -1,4 +1,4 @@
-var customers =[];
+var customers = [];
 var items = [];
 var orders = [];
 var orderDetails = [];

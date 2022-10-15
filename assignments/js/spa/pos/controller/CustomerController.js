@@ -7,14 +7,6 @@ $("#saveCustomer").click(function () {
     let customerContact = $("#txtCustomerContact").val();
     let customerSalary = $("#txtCustomerSalary").val();
 
-    // customer object
-    var customerObject = {
-        id: customerID,
-        name: customerName,
-        address: customerAddress,
-        contact: customerContact,
-        salary: customerSalary
-    }
     var customer = saveCustomer(customerID,customerName,customerAddress,customerContact,customerSalary);
     // push data
     customers.push(customer);
@@ -102,7 +94,7 @@ function updateCustomer(customerID) {
     }
 }
 
-$$('#delete').click(function () {
+$('#delete').click(function () {
     let deleteID = $("#txtCustomerID").val();
 
     let option = confirm("Do you really want to delete " + deleteID);

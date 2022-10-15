@@ -97,6 +97,12 @@
             background-color: #A8ACF6;
 
         }
+        .item-head{
+            width: 100%;
+            height: 40px;
+            background-color: #A8ACF6;
+
+        }
 
         header{
             width: 100%;
@@ -187,7 +193,11 @@
             margin: auto;
             background-color: #EEEEF2;
         }
-
+        .order-head{
+            width: 100%;
+            height: 40px;
+            background-color: #A8ACF6;
+        }
         #order .collapse {
             flex-basis: 100%;
             flex-grow: 1;
@@ -580,11 +590,11 @@
 
     <!-- item-form-edit  -->
 
-    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="editCus1" tabindex="-1">
+    <div aria-hidden="true" aria-labelledby="itemLabelEdit" class="modal fade" id="editItems" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel3">Item Update</h5>
+                    <h5 class="modal-title" id="itemLabelEdit">Item Update</h5>
                     <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
                 </div>
                 <div class="modal-body">
@@ -620,18 +630,19 @@
 
 </main>
 
+
 <!-- order -->
 <main id="orderContent">
-    <section id="order">
-        <section class="customer-head">
+    <section class="main-section" id="order">
+        <section class="order-head">
             <ul class="breadcrumb">
                 <img src="assests/img/order.png" width="35px">
-
+                <li><a href="#"></a></li>
                 <li class="active"> Orders</li>
             </ul>
         </section>
         <button type="button" class="btn btn-secondary back" style="background-color: #A8ACF6">
-            <img src="assests/img/left.png" width="26px">
+            <img src="assests/img/left.png" width="25px" >
             Back
         </button>
 
@@ -641,7 +652,6 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-
 
                             <div class="col-6">
                                 <div class="form-group">
@@ -657,13 +667,10 @@
                                 </div>
                             </div>
 
-
-
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Customer Id</label>
                                     <select class="form-select" id="selectCustomerID">
-
 
                                     </select>
                                 </div>
@@ -672,7 +679,7 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Customer Name</label>
-                                    <input class="form-control" id="formFile6" type="text">
+                                    <input class="form-control" id="orderCustomerName" type="text">
                                 </div>
                             </div>
 
@@ -688,28 +695,28 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Item Description</label>
-                                    <input class="form-control" id="formFile7" type="text">
+                                    <input class="form-control" id="itemDescription" type="text">
                                 </div>
                             </div>
 
                             <div class="col-5">
                                 <div class="form-group">
                                     <label>Qty On Hand</label>
-                                    <input class="form-control" id="formFile9" type="text">
+                                    <input class="form-control" id="qtyOnHand" type="text">
                                 </div>
                             </div>
 
                             <div class="col-4">
                                 <div class="form-group">
                                     <label>Unit Price</label>
-                                    <input class="form-control" id="formFile3" type="text">
+                                    <input class="form-control" id="unitPrice" type="text">
                                 </div>
                             </div>
 
                             <div class="col-3">
                                 <div class="form-group">
                                     <label>Qty</label>
-                                    <input class="form-control" id="formFile4" type="text">
+                                    <input class="form-control" id="qty" type="text">
                                 </div>
                             </div>
                             <div class="add-button">
@@ -722,17 +729,17 @@
                 </div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-lg-3">
                 <div class="card">
                     <section class="content-box-2 p-4 bg-light">
-                        <div class="row" style="background-color:#A8ACF6">
-                            <div class="col-12" style="background-color:#A8ACF6">
-                                <div class="row" style="background-color:#A8ACF6">
-                                    <div class="col-12" style="background-color:#A8ACF6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12">
                                         <span class="" id="total-text">Total : </span>
                                     </div>
                                     <div class="col-12">
-                                        <span id="total"></span> Rs/=
+                                        <label id="total"></label> Rs/=
                                     </div>
                                 </div>
 
@@ -748,10 +755,7 @@
                                         <span id="subtotal"></span> Rs/=
                                     </div>
                                 </div>
-
                             </div>
-
-
                             <div class="col-4 mt-4">
                                 <button class="btn btn-success" id="btnSubmitOrder" type="button">Purchase</button>
                             </div>
@@ -761,39 +765,34 @@
             </div>
         </div>
 
-        <section class="cus-table ">
-            <div class="">
+        <section class="order-table">
+            <div div class="col-md-12 mt-4" style="height:330px; overflow-y: scroll">
                 <table class="table table-bordered">
                     <thead class="bg-danger text-white">
-                    <tr style="background-color:  #A8ACF6">
-                        <th>Customer ID</th>
-                        <th>Customer Name</th>
-                        <th>Customer Address</th>
-                        <th>Customer Contact</th>
-                        <th>Customer Salary</th>
-                        <th style="width: 110px">Action</th>
+                    <tr style="background-color: #A8ACF6">
+                        <th>Id</th>
+                        <th>Code</th>
+                        <th>Description</th>
+                        <th>Unit Prince</th>
+                        <th>Qty</th>
+                        <th>Total</th>
                     </tr>
                     </thead>
                     <tbody id="tblOrder">
 
                     </tbody>
-
-
                 </table>
             </div>
         </section>
-
     </section>
-
-
 </main>
-
+<!--order detail-->
 <main id="orderDetailContent">
     <section class="main-section">
         <section class="item-head">
             <ul class="breadcrumb">
                 <img src="" width="35px">
-                <li><a href="#">Dashboard /</a></li>
+                <li><a href="#"></a></li>
                 <li class="active"> Order-Detail</li>
             </ul>
         </section>
@@ -802,7 +801,7 @@
             <div div class="col-md-12 mt-4" style="height:430px; overflow-y: scroll">
                 <table class="table table-bordered">
                     <thead class="bg-danger text-white">
-                    <tr>
+                    <tr style="background-color: #A8ACF6">
                         <th>OrderId</th>
                         <th>Date</th>
                         <th>Cus Id</th>
@@ -830,13 +829,16 @@
 <script src="controller/CustomerController.js"></script>
 <script src="controller/ItemController.js"></script>
 <script src="controller/PurchaseOrderController.js"></script>
+<script src="controller/OrderDetailController.js"></script>
+
 <!-- model-->
 <script src="model/Customer.js"></script>
 <script src="model/Item.js"></script>
 <script src="model/Order.js"></script>
+<script src="model/OrderDetail.js"></script>
 
 <!--validation-->
 <script src="validation/CustomerValidation.js"></script>
-
+<script src="validation/ItemValidation.js"></script>
 </body>
 </html>

@@ -8,8 +8,6 @@ $("#saveItem").click(function (){
     var item = saveItem(itemCode,itemName,qty,unitPrice);
     items.push(item);
 
-    items.push(itemObject);
-
     clearItemData();
     loadAllItems();
     bindRowClickEventTable();
@@ -24,7 +22,6 @@ function loadAllItems() {
                         <td><button class="btn btn-warning btn-mini" data-bs-target="#editItems"
                         data-bs-toggle="modal" id="btn-editItem"><i class="fa-solid fa-pen-to-square"></i> Edit
                         </button>
-                        <button class="btn btn-danger btn-mini delete-item"><i class="fa-solid fa-trash"></i> Delete</button>
                         </td>
                     </tr>`;
         $("#tblItem").append(all);
@@ -56,7 +53,6 @@ function bindRowClickEventTable() {
         $("#txtItemUnitPriceEdit").val(unitPrice);
 
         $("#txtItemCode").val(code);
-
     });
 }
 
