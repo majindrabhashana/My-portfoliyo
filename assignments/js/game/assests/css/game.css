@@ -19,8 +19,12 @@
 }
 .box{
     width: 90px;
-    height: 90px;
-    background-color: #ff253a;
+    height:90px;
+    /*background-color: #ff253a;*/
     position: absolute;
     margin-top: 565px;
+    background-image: url("../image/gif/fire2.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
