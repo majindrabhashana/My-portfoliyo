@@ -6,9 +6,11 @@
     height: 100vh;
     background-image:url("../image/background1.jpg") ;
     background-size: cover;
+    background-repeat: repeat-x;
 }
 .boy{
     height:200px;
     margin-top: 446px;
+    position: absolute;
 
 }
