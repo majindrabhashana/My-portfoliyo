@@ -51,7 +51,8 @@ function  runAnimation(){
 
  function moveBackground(){
 
-     backgroundImagePositionX= backgroundImagePositionX - 20;
+     backgroundImagePositionX= backgroundImagePositionX-20;
 
-    document.getElementById("background").style.backgroundPositionX + "px";
+   document.getElementById("background").style.backgroundPositionX = backgroundImagePositionX + "px";
+
  }
