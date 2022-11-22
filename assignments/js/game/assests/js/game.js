@@ -112,14 +112,22 @@ function jumpAnimationStart(){
 boxMarginLeft = 500;
 
 function createBoxes(){
-    for (var i=0;i<=10; i++){
+    for (var i=0; i<=10; i++) {
 
 
-    var box= document.createElement("div")
-    box.className="box"
-    document.getElementById("background").appendChild(box);
-    box.style.marginLeft=boxMarginLeft+"px";
+        var box = document.createElement("div")
+        box.className = "box"
+        document.getElementById("background").appendChild(box);
+        box.style.marginLeft = boxMarginLeft + "px";
 
-    boxMarginLeft=boxMarginLeft+500;
+       // boxMarginLeft = boxMarginLeft + 500;
+
+        if (i < 5) {
+            boxMarginLeft = boxMarginLeft + 500;
+
+        }
+        if (i >= 5) {
+            boxMarginLeft = boxMarginLeft + 250;
+        }
     }
     }

@@ -7,6 +7,8 @@
     background-image:url("../image/background1.jpg") ;
     background-size: cover;
     background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
 }
 .boy{
     height:200px;
