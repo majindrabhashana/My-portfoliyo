@@ -16,7 +16,7 @@ function idleAnimationStart(){
     idleAnimationNumber =setInterval(idleAnimation,200);
 }
 
-runImageNumber=0;
+runImageNumber=1;
 runAnimationNumber=0;
 
 function  runAnimation(){
@@ -31,6 +31,9 @@ function  runAnimation(){
     clearInterval(idleAnimationNumber);
 
  }
+
+
+
  function keyCheck(event){
     // alert(event.which);
     // enter=13
@@ -40,10 +43,11 @@ function  runAnimation(){
          if(runAnimationNumber == 0){
              runAnimationStart();
          }
+         if(moveBackgroundAnimationId == 0){
+             moveBackgroundAnimationId = setInterval (moveBackground,100);
+         }
      }
-     if(moveBackgroundAnimationId == 0){
-        moveBackgroundAnimationId = setInterval (moveBackground,100);
-     }
+
  }
 
  var backgroundImagePositionX =0;
