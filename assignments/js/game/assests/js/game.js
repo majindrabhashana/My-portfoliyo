@@ -6,8 +6,8 @@ function idleAnimation(){
 
     idleImageNumber=idleImageNumber+1;
 
-    if (idleImageNumber == 9){
-        idleImageNumber = 1;
+    if (idleImageNumber ==10){
+        idleImageNumber = 0;
     }
 
     boy.src = "assests/image/idle("+idleImageNumber+").png";
@@ -21,8 +21,8 @@ runAnimationNumber=0;
 
 function  runAnimation(){
     runImageNumber=runImageNumber+1
-    if (runImageNumber == 9){
-        runImageNumber = 1;
+    if (runImageNumber == 10){
+        runImageNumber =0;
     }
     boy.src ="assests/image/Run("+runImageNumber+").png"
 }
@@ -36,27 +36,29 @@ function  runAnimation(){
 
  jumpImageNumber =1;
  jumpAnimationNumber=0;
- boyMarginTop=307;
+ boyMarginTop=453;
 
  function jumpAnimation(){
 
-    jumpImageNumber = jumpImageNumber + 1;
+    jumpImageNumber = jumpImageNumber +1;
 
     if(jumpImageNumber <= 6){
-        boyMarginTop = boyMarginTop - 20;
-        boy.style.marginTop=boyMarginTop + "px";
+        boyMarginTop = boyMarginTop-20;
+        boy.style.marginTop=boyMarginTop+"px";
     }
-    if(jumpImageNumber <=7){
-        boyMarginTop = boyMarginTop +20;
-        boy.style.marginTop = boyMarginTop + "px";
+    if(jumpImageNumber >= 7){
+        boyMarginTop = boyMarginTop+20;
+        boy.style.marginTop = boyMarginTop+"px";
     }
 
     if(jumpImageNumber ==11){
+
         jumpImageNumber=1;
         clearInterval(jumpAnimationNumber);
         jumpAnimationNumber=0;
         runImageNumber=0;
         runAnimationStart();
+
     }
 
      boy.src="assests/image/jump("+jumpImageNumber+").png";
@@ -68,6 +70,8 @@ function jumpAnimationStart(){
     clearInterval(runAnimationNumber);
     jumpAnimationNumber = setInterval(jumpAnimation,100);
 }
+
+
 
  function keyCheck(event){
     // alert(event.which);
