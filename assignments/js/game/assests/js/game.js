@@ -36,7 +36,7 @@ function  runAnimation(){
 
  jumpImageNumber =1;
  jumpAnimationNumber=0;
- boyMarginTop=400;
+ boyMarginTop=430;
 
  function jumpAnimation(){
 
@@ -115,7 +115,7 @@ function jumpAnimationStart(){
 
  }
 
-boxMarginLeft = 1040;
+boxMarginLeft = 1540;
 
 function createBoxes(){
     for (var i=0; i<=10; i++) {
@@ -130,11 +130,11 @@ function createBoxes(){
        // boxMarginLeft = boxMarginLeft + 500;
 
         if (i < 5) {
-            boxMarginLeft = boxMarginLeft + 1000;
+            boxMarginLeft = boxMarginLeft + 2000;
 
         }
         if (i >= 5) {
-            boxMarginLeft = boxMarginLeft + 500;
+            boxMarginLeft = boxMarginLeft + 1000;
         }
     }
     }
@@ -143,7 +143,27 @@ function boxAnimation(){
     for(var i=0; i<10 ;i++){
         var box=document.getElementById("box"+i);
         var currentMarginLeft=getComputedStyle(box).marginLeft;
-        var newMarginLeft=parseInt(currentMarginLeft)-25;
+        var newMarginLeft=parseInt(currentMarginLeft)-35;
         box.style.marginLeft= newMarginLeft+"px";
+
+        if (newMarginLeft >= -110 & newMarginLeft <=100){
+            if(boyMarginTop>300){
+                clearInterval(boxAnimationId);
+
+                clearInterval(runAnimationNumber);
+                runAnimationNumber=-1;
+
+                clearInterval(jumpAnimationNumber);
+                jumpAnimationNumber=-1;
+
+                clearInterval(moveBackgroundAnimationId);
+                moveBackgroundAnimationId=-1;
+
+
+
+            }
+        }
+
     }
 }
+
