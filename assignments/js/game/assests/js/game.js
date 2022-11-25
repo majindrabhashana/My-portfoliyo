@@ -159,11 +159,22 @@ function boxAnimation(){
                 clearInterval(moveBackgroundAnimationId);
                 moveBackgroundAnimationId=-1;
 
-
+               deadAnimationNumber =setInterval(boyDeadAnimation,100);
 
             }
         }
 
     }
+}
+deadImageNumber=1
+deadAnimationNumber=0;
+
+function  boyDeadAnimation(){
+    deadImageNumber=deadImageNumber+1;
+    if (deadImageNumber ==10){
+        deadImageNumber = 9;
+    }
+
+    boy.src ="assests/image/Dead("+deadImageNumber+").png"
 }
 
