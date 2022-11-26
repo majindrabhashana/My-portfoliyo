@@ -36,18 +36,18 @@ function  runAnimation(){
 
  jumpImageNumber =1;
  jumpAnimationNumber=0;
- boyMarginTop=347;
+ boyMarginTop=400;
 
  function jumpAnimation(){
 
     jumpImageNumber = jumpImageNumber +1;
 
     if(jumpImageNumber <= 6){
-        boyMarginTop = boyMarginTop-35;
+        boyMarginTop = boyMarginTop-55;
         boy.style.marginTop=boyMarginTop+"px";
     }
     if(jumpImageNumber >= 7){
-        boyMarginTop = boyMarginTop+35;
+        boyMarginTop = boyMarginTop+55;
         boy.style.marginTop = boyMarginTop+"px";
     }
 
